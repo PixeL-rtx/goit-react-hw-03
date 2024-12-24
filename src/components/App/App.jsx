@@ -17,8 +17,10 @@ const App = () => {
   });
   const [filter, setFilter] = useState("");
 
-  const filterContacts = contacts.filter((contact) =>
-    contact.name.toLowerCase().includes(filter.toLowerCase())
+  const filterContacts = contacts.filter(
+    (contact) =>
+      contact.name && contact.name.toLowerCase().includes(filter.toLowerCase())
+    // contact.name.toLowerCase().includes(filter.toLowerCase())
   );
 
   useEffect(() => {
