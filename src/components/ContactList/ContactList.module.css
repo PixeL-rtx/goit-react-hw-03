@@ -1,7 +1,8 @@
 .list {
   padding: 20px;
-  align-items: first baseline;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
   display: flex;
   background-color: #f9f9f9;
   border-radius: 8px;

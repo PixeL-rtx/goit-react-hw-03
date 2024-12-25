@@ -1,6 +1,6 @@
 .item {
-  /* width: 220px; */
-  gap: 8px;
+  text-align: center;
+  gap: 10px;
   margin: 10px 0;
   padding: 15px;
   background-color: #ffffff;
@@ -9,9 +9,9 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
-  justify-content: space-between;
+  /* flex-direction: column; */
+  justify-content: center;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .item:hover {
